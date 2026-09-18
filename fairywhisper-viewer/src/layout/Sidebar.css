@@ -1,0 +1,52 @@
+/* src/layout/Sidebar.css */
+
+.fw-sidebar {
+  width: 240px;
+  padding: var(--space-lg);
+  background: var(--color-bg-surface);
+  color: var(--color-text-primary);
+  border-right: 1px solid var(--color-border);
+}
+
+.fw-sidebar-title {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-lg);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-md);
+}
+
+.fw-sidebar nav {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-text-primary);
+  margin-top: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.fw-sidebar nav a {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  margin-bottom: var(--space-xs);
+}
+
+.fw-sidebar nav a:hover {
+  text-decoration: underline;
+  color: var(--color-text-muted);
+}
+
+.fw-colormode-btn {
+  width: 90%;                     /* fills most of sidebar */
+  display: block;                 /* ensures full-width behaviour */
+  margin: var(--space-sm) auto;   /* space above/below + centered */
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  background: var(--button-bg);
+  color: var(--button-text);
+  box-shadow: var(--button-shadow);
+  cursor: pointer;
+  text-align: center;
+}
+
+.fw-colormode-btn:hover {
+  background: var(--button-bg-hover);
+}

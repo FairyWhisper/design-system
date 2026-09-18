@@ -1,0 +1,45 @@
+.fw-input-preview {
+  background-color: var(--color-bg-surface);
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.fw-input-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+
+.fw-input {
+  width: 100%;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-md);
+  padding: var(--input-padding, 12px 16px);
+  border-radius: var(--input-radius, 8px);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  box-shadow: var(--input-shadow, 0 2px 4px rgba(0,0,0,0.1));
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.fw-input-hover:hover {
+  border-color: var(--color-accent-primary);
+}
+
+/* Focus */
+.fw-input-focus:focus {
+  border-color: var(--color-accent-primary);
+  box-shadow: 0 0 0 3px var(--color-accent-translucent);
+}
+
+/* Disabled */
+.fw-input-disabled {
+  background-color: var(--color-bg-disabled);
+  color: var(--color-text-muted);
+  cursor: not-allowed;
+}

@@ -1,0 +1,37 @@
+.fw-avatar-preview {
+  background-color: var(--color-bg-surface);
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.fw-avatar {
+  background-color: var(--color-accent-primary);
+  color: var(--color-text-on-accent);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--space-sm);
+  font-weight: bold;
+}
+
+/* Sizes */
+.fw-avatar-sm {
+  width: 40px;
+  height: 40px;
+  font-size: var(--font-size-sm);
+}
+
+.fw-avatar-md {
+  width: 64px;
+  height: 64px;
+  font-size: var(--font-size-md);
+}
+
+.fw-avatar-lg {
+  width: 96px;
+  height: 96px;
+  font-size: var(--font-size-lg);
+}

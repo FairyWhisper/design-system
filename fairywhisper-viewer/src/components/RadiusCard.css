@@ -1,0 +1,27 @@
+/* src/components/RadiusCard.css */
+
+.fw-radius-card {
+  background-color: var(--color-bg-surface);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+}
+
+.fw-radius-box {
+  width: 120px;
+  height: 80px;
+  background-color: var(--color-bg-primary);
+  margin: 0 auto var(--space-sm);
+}
+
+.fw-radius-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.fw-radius-token {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: var(--space-xs);
+}

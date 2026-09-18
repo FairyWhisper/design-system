@@ -1,0 +1,9 @@
+.fw-cards-page {
+  padding: var(--space-xl);
+}
+
+.fw-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-xl);
+}

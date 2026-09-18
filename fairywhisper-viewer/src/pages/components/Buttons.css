@@ -1,0 +1,9 @@
+.fw-buttons-page {
+  padding: var(--space-xl);
+}
+
+.fw-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-lg);
+}

@@ -1,0 +1,42 @@
+.fw-card-preview {
+  background-color: var(--color-bg-surface);
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.fw-card-title {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.fw-card-body {
+  font-size: var(--font-size-md);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-md);
+}
+
+.fw-card-meta {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: var(--space-sm);
+}
+
+/* Variant: Elevated */
+.fw-card-elevated {
+  box-shadow: var(--shadow-lg);
+}
+
+/* Variant: Outline */
+.fw-card-outline {
+  border: 1px solid var(--color-border);
+}
+
+/* Variant: Accent */
+.fw-card-accent {
+  border-left: 4px solid var(--color-accent-primary);
+}

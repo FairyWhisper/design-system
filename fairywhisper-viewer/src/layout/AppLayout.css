@@ -1,0 +1,14 @@
+/* src/layout/AppLayout.css */
+
+.fw-layout {
+  display: flex;
+  height: 100vh;
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+.fw-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}

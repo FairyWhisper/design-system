@@ -1,0 +1,27 @@
+/* src/components/ShadowCard.css */
+
+.fw-shadow-card {
+  background-color: var(--color-bg-surface);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.fw-shadow-box {
+  width: 120px;
+  height: 80px;
+  background-color: var(--color-bg-primary);
+  border-radius: var(--radius-sm);
+  margin: 0 auto var(--space-sm);
+}
+
+.fw-shadow-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.fw-shadow-token {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: var(--space-xs);
+}

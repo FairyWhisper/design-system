@@ -1,0 +1,13 @@
+.fw-colors-page {
+  padding: var(--space-md);
+}
+
+section {
+  margin-bottom: var(--space-xl);
+}
+
+.fw-swatch-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}

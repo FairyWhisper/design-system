@@ -1,0 +1,30 @@
+/* src/pages/Shadows.css */
+
+.fw-shadows-page {
+  padding: var(--space-xl);
+}
+
+section {
+  margin-bottom: var(--space-xxl);
+}
+
+.fw-shadow-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-lg);
+}
+/* src/pages/Shadows.css */
+
+.fw-shadows-page {
+  padding: var(--space-xl);
+}
+
+section {
+  margin-bottom: var(--space-xxl);
+}
+
+.fw-shadow-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-lg);
+}

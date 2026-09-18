@@ -1,0 +1,13 @@
+/* src/pages/Typography.css */
+
+.fw-typography-page {
+  padding: var(--space-xl);
+}
+
+section {
+  margin-bottom: var(--space-xxl);
+}
+
+h2 {
+  margin-bottom: var(--space-md);
+}

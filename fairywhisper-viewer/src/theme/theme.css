@@ -1,0 +1,15 @@
+/* src/theme/theme.css */
+
+/* Light mode */
+[data-theme="light"] {
+  --card-bg: var(--card-bg-light);
+  --input-bg: var(--input-bg-light);
+  --panel-bg: var(--panel-bg-light);
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --card-bg: var(--card-bg-dark);
+  --input-bg: var(--input-bg-dark);
+  --panel-bg: var(--panel-bg-dark);
+}

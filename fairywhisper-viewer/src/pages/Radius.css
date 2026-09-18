@@ -1,0 +1,11 @@
+/* src/pages/Radius.css */
+
+.fw-radius-page {
+  padding: var(--space-xl);
+}
+
+.fw-radius-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-lg);
+}

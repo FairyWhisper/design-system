@@ -1,0 +1,280 @@
+:root {
+/* COLOR TOKENS */
+
+  /* Backgrounds */
+
+--color-bg-primary: #383b54; /* Main app background. Darkest tone. FairyWhisper “Bright Grey”. */
+--color-bg-secondary: #5a5a77; /* Section background. Slightly lighter than primary "Comet". */
+
+--color-bg-surface: #605366; /* Card surfaces. Used for panels, blocks, UI elements "Bleached Cedar". */
+--color-bg-surface-alt: #706077; /* Alternate card surfaces. Variation for depth "Salt Box". */
+
+--color-bg-overlay: #4e3d56; /* Modal overlay. Dimmer layer above content. "mulled wine" */
+
+--color-bg-inverse: #628090; /* Opposite of primary. Used for inverted sections."Lynch" */
+
+  /* Text Colors */
+
+--color-text-primary: #e4e4db; /* Main readable text. High contrast. "Cararra". */
+--color-text-secondary: #e0ddd1; /* Secondary text. Less emphasis. "Moon Mist" */
+--color-text-muted: #f0e4d3; /* Muted text. Subtle, low‑priority info."parchment" */
+--color-text-inverse: #413d4d; /* Text on light backgrounds. "ship grey" */
+
+
+    /* Semantic Text Colors */
+--color-text-accent: #718d9b; /* Highlight text. Links, emphasis, magical notes. "gothic" */
+--color-text-warning: #e4b169; /* Warning text. Amber tone. "Equator" */
+--color-text-danger: #d14b72; /* Error text. Strong red. "Cerise" */
+--color-text-success: #95d1c3; /* Success text. Confirmation messages."Sinbad" */
+
+    /* Accent / Splash Colors */
+
+--color-accent-primary: #66989b; /* Signature FairyWhisper purple. Main brand accent."Patina" */
+--color-accent-secondary: #4a686d; /* Supporting accent. Slightly darker."Cutty Sark" */
+--color-accent-soft: #85979b; /* Soft accent. Pastel, gentle highlights. "Regent Grey" */
+--color-accent-glow: #95d1c3; /* Neon magical glow. Used sparingly."Sinbad" */
+--color-accent-gradient: linear-gradient(45deg, #363959, #797498); /* Brand gradient."Martinique - Waterloo" */
+
+    /* Semantic Colors */
+
+--color-success: #95d1c3; /* Success states. Confirmations. */
+--color-warning: #e4b169; /* Warning states. Caution. */
+--color-danger: #d14b72; /* Error states. Critical alerts. */
+--color-info: #fc9383; /* Informational states. Neutral notices. "Geraldine" */
+
+
+    /* Border Colors */
+
+--color-border-light: #dcece1; /* Light borders. Subtle outlines. "Harp" */
+--color-border: #6b7a8e; /* Standard borders. Neutral dividers. "Slate Grey" */
+--color-border-strong: #485861; /* Strong borders. High contrast separators. "Riverbed"*/
+
+
+    /* SPACING TOKENS */
+
+--space-xxs: 4px; /* Tiny spacing. Icon gaps, micro‑padding. */
+--space-xs: 8px; /* Extra small spacing. Tight layouts. */
+--space-sm: 12px; /* Small spacing. Compact UI. */
+--space-md: 16px; /* Medium spacing. Default padding. */
+--space-lg: 24px; /* Large spacing. Section padding. */
+--space-xl: 32px; /* Extra large spacing. Big layout gaps. */
+--space-xxl: 40px; /* Huge spacing. Hero sections. */
+--space-card-padding: 16px; /* Standard card padding. */
+--space-section-gap: 32px; /* Gap between major sections. */
+
+
+    /* RADIUS TOKENS */
+
+--radius-none: 0; /* Sharp corners. */
+--radius-sm: 4px; /* Slight rounding. */
+--radius-md: 8px; /* Medium rounding. Default UI. */
+--radius-lg: 16px; /* Soft rounding. Cards, panels. */
+--radius-xl: 32px; /* Very soft rounding. Hero elements. */
+--radius-pill: 50px; /* Pill shapes. Buttons, tags. */
+--radius-circle: 50%; /* Perfect circles. Avatars, icons. */
+
+
+/* SHADOW TOKENS */
+
+    /* Elevation Levels */
+
+--shadow-none: none; /* Flat. No elevation. */
+--shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05); /* Tiny elevation. Subtle depth. */
+--shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1); /* Small elevation. Buttons. */
+--shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1); /* Medium elevation. Cards. */
+--shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1); /* Large elevation. Panels. */
+--shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1); /* Dramatic elevation. Modals. */
+
+    /* Special Shadows */
+--shadow-glow: 0 0 10px #e5576f; /* Magical glow. FairyWhisper signature. "Mandy"*/
+--shadow-inset: inset 0 2px 4px #241f33; /* Inset shadow. Input fields. */
+--shadow-focus: 0 0 0 3px #e5576f; /* Focus ring. Accessibility. "Mandy" */
+--shadow-card: 0 4px 6px #241f33; /* Standard card shadow. */
+
+/* TYPOGRAPHY TOKENS */
+
+    /* Font Families */
+
+--font-family-base: 'Garamond', serif;              /* Main body font. Elegant, readable, bookish. */
+--font-family-heading: 'Playfair Display', serif;   /* Headings. High‑contrast, confident, refined. */
+--font-family-mono: 'JetBrains Mono', monospace;    /* Code blocks. Technical UI. Precise and modern. */
+--font-family-signature: 'Brush Script MT', cursive;/* Signature titles. Soft, flowing, magical. */
+
+    /* Font Sizes */
+
+--font-size-xs: 12px; /* Tiny text. Labels. */
+--font-size-sm: 14px; /* Small text. Secondary info. */
+--font-size-md: 16px; /* Default body text. */
+--font-size-lg: 20px; /* Subheadings. */
+--font-size-xl: 24px; /* Headings. */
+--font-size-xxl: 32px; /* Hero headings. */
+
+    /* Font Weights */
+
+--font-weight-light: 300; /* Soft text. Gentle tone. */
+--font-weight-normal: 400; /* Standard text. */
+--font-weight-medium: 500; /* Slight emphasis. */
+--font-weight-bold: 700; /* Strong emphasis. */
+--font-weight-black: 900; /* Heavy emphasis. */
+
+
+    /* Line Heights */
+
+---line-height-tight: 1.2; /* Tight text. Headlines. */
+--line-height-normal: 1.5; /* Default readability. */
+--line-height-loose: 1.8; /* Spacious text. Long paragraphs. */
+
+    /* Letter Spacing */
+
+--letter-spacing-tight: -0.5px; /* Condensed. Magical headings. */
+--letter-spacing-normal: 0px; /* Default. */
+--letter-spacing-wide: 0.5px; /* Wide. Elegant accents. */
+
+/* COMPONENT TOKENS */
+
+    /* Buttons */
+
+--button-bg: #20798a; /* Primary button background. "Elm" */
+--button-bg-hover: #4bcccc; /* Hover state. "Shakespeare" */
+--button-text: #e4e4db; /* Button text. "Cararra" */
+--button-radius: 8px; /* Button shape. */
+--button-padding: 12px 24px; /* Button size. */
+--button-shadow: 0 4px 6px #241f33; /* Button elevation. */
+
+    /* Cards */
+
+--card-bg: #756e86; /* Card background. "Topaz" */
+--card-radius: 16px; /* Card shape. */
+--card-padding: 16px; /* Card spacing. */
+--card-shadow: 0 4px 6px #241f33; /* Card elevation. */
+
+    /* Inputs */
+
+--input-bg: #4482a7; /* Input background. "Cerulean" */
+--input-border: 1px solid #cccccc; /* Input border. */
+--input-radius: 8px; /* Input shape. */
+--input-padding: 8px 12px; /* Input spacing. */
+--input-focus-shadow: 0 0 0 3px #e5576f; /* Focus ring. "Mandy" */
+
+    /* Panels */
+
+--panel-bg: #332b55; /* Panel background. "Deep Indigo" */
+--panel-radius: 16px; /* Panel shape. */
+--panel-padding: 16px; /* Panel spacing. */
+
+/* LAYOUT TOKENS */
+
+--layout-max-width: 1200px; /* Max content width. */
+--layout-grid-gap: 16px; /* Grid spacing. */
+--layout-section-gap: 32px; /* Gap between sections. */
+--layout-navbar-height: 64px; /* Navbar height. */
+--layout-footer-height: 64px; /* Footer height. */
+
+/* ANIMATION TOKENS */
+--animation-duration-fast: 150ms; /* Quick interactions. */
+--animation-duration-normal: 300ms; /* Standard animations. */
+--animation-duration-slow: 500ms; /* Gentle, magical animations. */
+
+--animation-ease-in: cubic-bezier(0.4, 0, 1, 1); /* Ease in. */
+--animation-ease-out: cubic-bezier(0, 0, 0.2, 1); /* Ease out. */
+--animation-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1); /* Smooth transitions. */
+--animation-spring: cubic-bezier(0.5, 1.5, 0.5, 1); /* Bouncy, magical motion. */
+
+/* BRAND / SPECIAL TOKENS */
+    /* These are unique to FairyWhisper: */
+    
+--fw-glow-primary: #ff00ff; /* FairyWhisper glow. Signature magic. */
+--fw-glow-accent: #cc00cc; /* Secondary glow. */
+--fw-gradient-primary: linear-gradient(45deg, #ff00ff, #cc00cc); /* Brand gradient. */
+--fw-gradient-surface: linear-gradient(45deg, #ffffff, #f5f5f5); /* Soft surface gradient. */
+--fw-sparkle-opacity: 0.8; /* Sparkle intensity. */
+--fw-magic-radius: 16px; /* Magical element rounding. */
+--fw-magic-shadow: 0 4px 6px #0000001A; /* Magical shadow. */
+
+}
+
+:root[data-theme="dark"] {
+
+ /* COLOR TOKENS */
+
+  /* Backgrounds */
+
+--color-bg-primary: #212440; /* Darker than primary. "Bright Grey Dark". */
+--color-bg-secondary: #262645; /* Darker than secondary. "Comet Dark". */
+
+--color-bg-surface: #221429; /* Darker than surface. "Bleached Cedar Dark". */
+--color-bg-surface-alt: #3e2a47; /* Darker than alternate surface. "Salt Box Dark". */
+
+--color-bg-overlay: #3b2645; /* Darker than overlay. "Mulled Wine Dark". */
+
+--color-bg-inverse: #2d4c5c; /* Darker than inverse. "Lynch Dark". */
+
+/* Text Colors */
+
+--color-text-primary: #e4e4db; /* Main readable text on dark background. "Cararra". */
+--color-text-secondary: #e0ddd1; /* Secondary text on dark background. "Moon Mist" */
+--color-text-muted: #f0e4d3; /* Muted text. Subtle, low‑priority info."parchment" */
+--color-text-inverse: #9e9e9e; /* Text on light backgrounds. Slightly darker than inverse. "Ship Grey Light". */
+
+/* Border Colors */
+
+--color-border-light: #dcece1; /* Light borders. Subtle outlines. "Harp" */
+--color-border: #6b7a8e; /* Standard borders. Neutral dividers. "Slate Grey" */
+--color-border-strong: #485861; /* Strong borders. High contrast separators. "Riverbed"*/
+
+/* Card Colors */
+
+--card-bg: #756e86; /* Card background. "Topaz" */
+
+/* Input Color */ 
+
+--input-bg: #4482a7; /* Input background dark variant. "Cerulean" */
+
+/* Panel Color */
+
+--panel-bg: #332b55; /* Panel background dark variant. "Deep Indigo" */
+
+}
+
+:root[data-theme="light"] {
+   
+/* COLOR TOKENS */
+
+  /* Backgrounds */
+
+--color-bg-primary: #999aa3; /* Slightly lighter than primary. "Bright Grey Light". */
+--color-bg-secondary: #c2c2c2; /* Slightly lighter than secondary. "Comet Light". */
+
+--color-bg-surface: #8f8395; /* Slightly lighter than surface. "Bleached Cedar Light". */
+--color-bg-surface-alt: #c4c4c4; /* Slightly lighter than alternate surface. "Salt Box Light". */
+
+--color-bg-overlay: #a4a1a5; /* Slightly lighter than overlay. "Mulled Wine Light". */
+
+--color-bg-inverse: #cfd2d3; /* Slightly lighter than inverse. "Lynch Light". */
+
+/* Text Colors */
+
+--color-text-primary: #322A4A; /* Main readable text on light background. "Martinique" */
+--color-text-secondary: #413449; /* Secondary text on light background. "blackberry" */
+--color-text-muted: #373d5b; /* Muted text. Subtle, low‑priority info."Oxford Blue" */
+--color-text-inverse: #2b253c; /* Text on light backgrounds. Slightly lighter than inverse. "Ship Grey Dark". */
+
+/* Border Colors */
+
+--color-border-light: #447886; /* light borders light mode. Subtle outlines "Blue Lagoon" */
+--color-border: #3e4054; /* Standard borders. Neutral Dividers. "Gunpowder" */
+--color-border-strong:#3e414e; /* Strong borders. High contrast separators. "Bright Gray" */
+
+/* Card Colors */
+
+--card-bg:#403659; /* Card background light variant. */
+
+/* Input Color */
+
+--input-bg: #b5c6d0; /* Input background. "Powder Blue" */
+
+/* Panel Color */
+
+--panel-bg: #c4c6da; /* Panel background. "Lavender Gray" */
+
+}
